@@ -71,3 +71,31 @@
     height: 24px;
     cursor: pointer;
 }
+
+.banner {
+    background-image: url(../image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.banner h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    line-height: 100px;
+}
+
+.banner--images {
+    margin-top: 60px;
+}
+.banner--images img {
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
+}
