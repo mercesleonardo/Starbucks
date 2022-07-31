@@ -240,3 +240,28 @@ h2 {
     background-image: url(../image/bg3.jpg);
     background-position: left;
 }
+
+.area5 {
+    background-image: url(../image/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 80px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #a8f8dd;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #117050;
+}
